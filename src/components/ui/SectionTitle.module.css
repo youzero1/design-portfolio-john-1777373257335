@@ -11,10 +11,10 @@
   text-transform: uppercase;
   color: var(--color-primary);
   margin-bottom: 0.75rem;
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(249, 115, 22, 0.1);
   padding: 0.3rem 0.9rem;
   border-radius: 100px;
-  border: 1px solid rgba(99, 102, 241, 0.25);
+  border: 1px solid rgba(249, 115, 22, 0.25);
 }
 
 .title {

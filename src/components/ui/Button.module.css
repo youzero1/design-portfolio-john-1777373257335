@@ -22,12 +22,12 @@
 .primary {
   background: var(--color-primary);
   color: #fff;
-  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.3);
 }
 
 .primary:hover:not(:disabled) {
   background: var(--color-primary-hover);
-  box-shadow: 0 0 30px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 0 30px rgba(249, 115, 22, 0.5);
   transform: translateY(-1px);
 }
 
@@ -38,7 +38,7 @@
 }
 
 .secondary:hover:not(:disabled) {
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(249, 115, 22, 0.1);
   transform: translateY(-1px);
 }
 

@@ -92,14 +92,14 @@
   width: 38px;
   height: 38px;
   border-radius: var(--radius-md);
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  background: rgba(249, 115, 22, 0.1);
+  border: 1px solid rgba(249, 115, 22, 0.2);
   color: var(--color-primary);
   transition: all 0.2s;
 }
 
 .infoSocialLink:hover {
-  background: rgba(99, 102, 241, 0.2);
+  background: rgba(249, 115, 22, 0.2);
   transform: translateY(-2px);
 }
 
@@ -176,7 +176,7 @@
 .input:focus,
 .textarea:focus {
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.15);
 }
 
 .input::placeholder,

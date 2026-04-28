@@ -35,7 +35,7 @@
   position: absolute;
   inset: 0;
   border-radius: var(--radius-xl);
-  background: linear-gradient(135deg, rgba(99,102,241,0.15), transparent);
+  background: linear-gradient(135deg, rgba(249,115,22,0.15), transparent);
   pointer-events: none;
 }
 
@@ -47,10 +47,10 @@
   text-transform: uppercase;
   color: var(--color-primary);
   margin-bottom: 0.75rem;
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(249, 115, 22, 0.1);
   padding: 0.3rem 0.9rem;
   border-radius: 100px;
-  border: 1px solid rgba(99, 102, 241, 0.25);
+  border: 1px solid rgba(249, 115, 22, 0.25);
 }
 
 .bioTitle {
@@ -129,7 +129,7 @@
 
 .skillFill {
   height: 100%;
-  background: linear-gradient(90deg, var(--color-primary), #818cf8);
+  background: linear-gradient(90deg, var(--color-primary), #fb923c);
   border-radius: 100px;
   transition: width 1s ease;
 }
@@ -169,7 +169,7 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: rgba(99, 102, 241, 0.15);
+  background: rgba(249, 115, 22, 0.15);
   border: 2px solid var(--color-primary);
   display: flex;
   align-items: center;
@@ -180,7 +180,7 @@
 }
 
 .educationIcon {
-  background: rgba(245, 158, 11, 0.15);
+  background: rgba(251, 146, 60, 0.15);
   border-color: var(--color-accent);
   color: var(--color-accent);
 }
@@ -209,7 +209,7 @@
   color: var(--color-primary);
   font-weight: 600;
   white-space: nowrap;
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(249, 115, 22, 0.1);
   padding: 0.2rem 0.6rem;
   border-radius: 100px;
 }
