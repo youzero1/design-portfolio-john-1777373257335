@@ -9,7 +9,7 @@ import Contact from '@/pages/Contact';
 import styles from './App.module.css';
 
 export default function App() {
-  const circleRef = useRef<HTMLDivElement>(null);
+  const blobRef = useRef<HTMLDivElement>(null);
   const mouse = useRef({ x: 0, y: 0 });
   const pos = useRef({ x: 0, y: 0 });
   const rafRef = useRef<number>(0);
@@ -21,12 +21,12 @@ export default function App() {
     };
 
     const animate = () => {
-      const speed = 0.1;
+      const speed = 0.08;
       pos.current.x += (mouse.current.x - pos.current.x) * speed;
       pos.current.y += (mouse.current.y - pos.current.y) * speed;
 
-      if (circleRef.current) {
-        circleRef.current.style.transform = `translate(${pos.current.x - 20}px, ${pos.current.y - 20}px)`;
+      if (blobRef.current) {
+        blobRef.current.style.transform = `translate(${pos.current.x - 200}px, ${pos.current.y - 200}px)`;
       }
 
       rafRef.current = requestAnimationFrame(animate);
@@ -44,7 +44,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className={styles.app}>
-        <div ref={circleRef} className={styles.cursor} />
+        <div ref={blobRef} className={styles.gradientBlob} />
         <Header />
         <main className={styles.main}>
           <Routes>
