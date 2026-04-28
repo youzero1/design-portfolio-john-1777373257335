@@ -74,7 +74,7 @@ export default function Home() {
             <div className={styles.avatarRing} />
             <div className={styles.avatarRing2} />
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop"
+              src="https://placehold.co/400x400?text=John+Doe"
               alt="John Doe"
               className={styles.avatar}
             />

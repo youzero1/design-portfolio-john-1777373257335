@@ -44,7 +44,7 @@ export default function About() {
         <section className={styles.bio}>
           <div className={styles.bioImage}>
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop"
+              src="https://placehold.co/500x500?text=John+Doe"
               alt="John Doe"
             />
             <div className={styles.bioImageGlow} />
