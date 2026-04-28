@@ -31,7 +31,7 @@ export default function Header() {
       <div className={styles.container}>
         <NavLink to="/" className={styles.logo}>
           <Code2 size={24} />
-          <span>Alex Morgan</span>
+          <span>John Doe</span>
         </NavLink>
 
         <nav className={clsx(styles.nav, menuOpen && styles.navOpen)}>

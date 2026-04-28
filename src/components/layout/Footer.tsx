@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <p className={styles.copy}>
-          Built with <Heart size={14} className={styles.heart} /> by Alex Morgan &copy; {new Date().getFullYear()}
+          Built with <Heart size={14} className={styles.heart} /> by John Doe &copy; {new Date().getFullYear()}
         </p>
         <div className={styles.socials}>
           {socials.map(({ label, url, Icon }) => (

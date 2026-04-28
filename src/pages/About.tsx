@@ -45,7 +45,7 @@ export default function About() {
           <div className={styles.bioImage}>
             <img
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop"
-              alt="Alex Morgan"
+              alt="John Doe"
             />
             <div className={styles.bioImageGlow} />
           </div>
@@ -53,7 +53,7 @@ export default function About() {
             <span className={styles.bioLabel}>About Me</span>
             <h1 className={styles.bioTitle}>Passionate about building great software</h1>
             <p className={styles.bioParagraph}>
-              Hi! I'm Alex Morgan, a full-stack developer with 5+ years of experience building
+              Hi! I'm John Doe, a full-stack developer with 5+ years of experience building
               scalable web applications. I'm passionate about clean code, intuitive UX, and
               using technology to solve meaningful problems.
             </p>

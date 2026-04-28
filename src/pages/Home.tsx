@@ -37,7 +37,7 @@ export default function Home() {
             Available for freelance work
           </div>
           <h1 className={styles.heroTitle}>
-            Hi, I'm <span className={styles.highlight}>Alex Morgan</span>
+            Hi, I'm <span className={styles.highlight}>John Doe</span>
             <br />
             Full-Stack Developer
           </h1>
@@ -75,7 +75,7 @@ export default function Home() {
             <div className={styles.avatarRing2} />
             <img
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop"
-              alt="Alex Morgan"
+              alt="John Doe"
               className={styles.avatar}
             />
           </div>

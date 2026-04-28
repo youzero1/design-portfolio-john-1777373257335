@@ -48,7 +48,7 @@ export default function Contact() {
                   <Mail size={18} className={styles.infoIcon} />
                   <div>
                     <span className={styles.infoItemLabel}>Email</span>
-                    <span className={styles.infoItemValue}>alex@example.com</span>
+                    <span className={styles.infoItemValue}>john@example.com</span>
                   </div>
                 </div>
                 <div className={styles.infoItem}>
