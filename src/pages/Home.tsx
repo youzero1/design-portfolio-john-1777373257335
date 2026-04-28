@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Github, Linkedin, Twitter, Download, Sparkles } from 'lucide-react';
 import Button from '@/components/ui/Button';
@@ -10,26 +9,10 @@ import styles from './Home.module.css';
 const featuredProjects = projects.filter((p) => p.featured);
 
 export default function Home() {
-  const heroRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = heroRef.current;
-    if (!el) return;
-    const handler = (e: MouseEvent) => {
-      const rect = el.getBoundingClientRect();
-      const x = ((e.clientX - rect.left) / rect.width) * 100;
-      const y = ((e.clientY - rect.top) / rect.height) * 100;
-      el.style.setProperty('--mouse-x', `${x}%`);
-      el.style.setProperty('--mouse-y', `${y}%`);
-    };
-    el.addEventListener('mousemove', handler);
-    return () => el.removeEventListener('mousemove', handler);
-  }, []);
-
   return (
     <div className={styles.page}>
       {/* Hero */}
-      <section className={styles.hero} ref={heroRef}>
+      <section className={styles.hero}>
         <div className={styles.heroBg} />
         <div className={styles.heroContent}>
           <div className={styles.badge}>
