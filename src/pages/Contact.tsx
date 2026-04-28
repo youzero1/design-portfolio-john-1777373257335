@@ -48,7 +48,7 @@ export default function Contact() {
                   <Mail size={18} className={styles.infoIcon} />
                   <div>
                     <span className={styles.infoItemLabel}>Email</span>
-                    <span className={styles.infoItemValue}>john@example.com</span>
+                    <span className={styles.infoItemValue}>johndoe@yopmail.com</span>
                   </div>
                 </div>
                 <div className={styles.infoItem}>
@@ -123,7 +123,7 @@ export default function Contact() {
                       name="email"
                       type="email"
                       required
-                      placeholder="john@example.com"
+                      placeholder="johndoe@yopmail.com"
                       value={form.email}
                       onChange={handleChange}
                       className={styles.input}
